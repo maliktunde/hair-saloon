@@ -245,3 +245,102 @@ body > header:first-child{
     }
 }
 
+.contact.section{
+    background-color: #11335550;
+    background: url('../images/interior-view.jpg') no-repeat center/cover;
+    background-blend-mode: screen;
+    color: #135;
+    padding: 2rem 1.2rem;
+    box-shadow: #0007 0px 10px 15px 5px;
+}
+
+.contact-container{
+    background-color: #11335590;
+    color: #efefef;
+    padding: 2rem 1.2rem;
+    border-radius: 5px;
+    box-shadow: #0007 0px 10px 15px 5px;
+    gap: 2rem;
+    margin: 2rem 0;
+
+    & .contact-info{
+        flex:1;
+
+        & h3{
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            font-size: 1.6rem;
+        }
+
+        .contact-list{
+            list-style: none;
+            padding: 10px 0;
+
+            & li{
+                margin-bottom: 0.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 1.6rem;
+                 color: #efefef;
+
+                & i{
+                    color: #135;
+                    background-color: #eee;
+                    width: 30px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 50%;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    & .contact-form{
+        flex:1;
+
+        & form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            & input, & textarea{
+                padding: 0.5rem;
+                border-radius: 5px;
+                border:1px solid #135;
+                font-family: inherit;
+                font-size: 0.9rem;
+            }
+
+            & button{
+                align-self: flex-start;
+                padding: 0.5rem 1rem;
+                background-color: #135;
+                color: #eee;
+                border:none;
+                border-radius: 5px;
+                font-weight: 600;
+                transition: all 0.3s ease;
+                font-family: inherit;
+
+            }
+            & button:hover{
+                background-color: #eee;
+                color: #135;
+                padding: 0.5rem 1.2rem;
+                border:2px solid #135;
+            }
+        }
+    }
+}
+
+footer{
+    border-top: 0.5rem solid #1133c580;
+    background-color: #135;
+    color: #eee;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    
+}
