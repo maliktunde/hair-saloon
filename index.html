@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Saloon</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/responsive/large.css"> -->
     <!-- Fontawesome Icons css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -20,6 +21,10 @@
             <h1 class="logo-text">HairSaloon</h1>
         </div>
         <nav>
+            <label for="hamburger" class="hamburger">
+                <i class="fa fa-bars"></i> 
+            </label>
+            <input type="checkbox" name="hamburger" id="hamburger" style="display:none;">
             <ul class="menu">
                 <li class="menu-item"><a href="#">Home</a></li>
                 <li class="menu-item"><a href="#about">About Us</a></li>
@@ -155,15 +160,15 @@
     <section id="contact" class="contact section">
         <div class="container">
             <h2><i class="fa fa-envelope"></i> Contact Us </h2>
-            <p>If you have any questions, want to book an appointment, or simply want to learn more about our services, feel free to reach out to us. We are here to assist you and provide you with the best hair care experience possible. You can contact us through the following methods:</p>
+            <p>If you have any questions, <span style="color:#13f;">want to book an appointment</span>, or simply want to learn more about our services, feel free to reach out to us. We are here to assist you and provide you with the best hair care experience possible. You can contact us through the following methods:</p>
             
             <div class="d-flex contact-container">
                 <div class="contact-info">
                     <h3><i class="fa fa-info-circle"></i> Contact Information</h3>
                     <ul class="contact-list">
-                        <li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-7890</li>      
-                        <li><i class="fa fa-envelope"></i> <strong>Email:</strong> contact@hairsaloon.com</li>
-                        <li><i class="fa fa-map-marker-alt"></i> <strong>Address:</strong> 123 Main Street, Anytown, USA</li>
+                        <li><i class="fa fa-phone"></i> <strong>Phone:</strong> <span>(123) 456-7890</span></li>      
+                        <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <span>contact@hairsaloon.com</span></li>
+                        <li><i class="fa fa-map-marker-alt"></i> <strong>Address:</strong> <span>123 Main Street, Anytown, USA</span></li>
                     </ul>
                 </div>
 
